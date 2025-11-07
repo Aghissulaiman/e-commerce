@@ -1,23 +1,23 @@
-import Banner from '../components/Banner'
-import Cart from '../components/Cart'
-import Footer from '../components/footer'
-import Navbar from '../components/Navbar'
-import PromoBaner from '../components/PromoBaner'
+import Banner from "../components/Banner";
+import Cart from "../components/Cart";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import PromoBaner from "../components/PromoBaner";
 
 const Landingpages = () => {
-    return (
-        <>
-            <Navbar />
+  return (
+    <>
+      <Navbar />
 
-           <PromoBaner/>
-        
-            <Banner/>
-            
-            <Cart/>
-        
-            <Footer/>
-        </>
-    )
-} 
+      <PromoBaner />
 
-export default Landingpages
+      <Banner />
+
+      <Cart />
+
+      <Footer />
+    </>
+  );
+};
+
+export default Landingpages;
