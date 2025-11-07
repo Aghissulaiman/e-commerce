@@ -1,20 +1,11 @@
-import Profil from "../components/Profil"
+import Profil from "../components/Profil";
 
-    
-
-const ProfilPage =() => {
-    return (
-
-
-        <> 
-        
-        <Profil/>
-        
-        </>
-
-    )
-
-
-}
+const ProfilPage = () => {
+  return (
+    <>
+      <Profil />
+    </>
+  );
+};
 
 export default ProfilPage;

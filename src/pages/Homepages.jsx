@@ -1,25 +1,17 @@
-import Cart from "../components/Cart"
-import Footer from "../components/footer"
-import Navbarh from "../components/Navbarh"
-import PromoBaner from "../components/PromoBaner"
+import Cart from "../components/Cart";
+import Footer from "../components/Footer";
+import Navbarh from "../components/Navbarh";
+import PromoBaner from "../components/PromoBaner";
 
-const Homepages =() => {
-    return(
+const Homepages = () => {
+  return (
+    <>
+      <Navbarh />
+      <PromoBaner />
+      <Cart />
+      <Footer />
+    </>
+  );
+};
 
-        <>
-
-        <Navbarh/>
-        
-        <PromoBaner/>
-
-        <Cart/>
-
-        <Footer/>
-        
-        </>
-
-    )
-
-}
-
-export default Homepages
+export default Homepages;

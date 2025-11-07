@@ -1,18 +1,11 @@
-import Keranjang from "../components/Keranjang"
-
-
+import Keranjang from "../components/Keranjang";
 
 const KeranjangPege = () => {
-    return (
+  return (
+    <>
+      <Keranjang />
+    </>
+  );
+};
 
-        <>
-        <Keranjang/>
-        </>
-
-
-    )
-
-
-}
-
-export default KeranjangPege
+export default KeranjangPege;
